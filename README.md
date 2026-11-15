@@ -1,2 +1,6 @@
-# college-management-system
-SMART CAMPUS is a web-based College Management System for students, faculty, and administrators. It manages student records, attendance, timetables, marks, results, leave requests, and announcements. Built with React, Angular, Node.js, Express.js, and MongoDB, it offers secure, role-based access and simplifies college administration efficiently.
+# Smart Campus
+Run:  npm install  &&  npm start   -> open http://localhost:5000
+No MongoDB needed: it starts a built-in local one (data in ./data). To use your own, set MONGO_URI in .env.
+Demo logins (the sign-in page pre-fills them):
+  admin@smartcampus.edu / Admin@12345   faculty@smartcampus.edu / Faculty@123   student@smartcampus.edu / Student@123
+Needs Node.js 18+.
